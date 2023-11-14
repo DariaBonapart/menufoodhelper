@@ -8,5 +8,5 @@ RUN apk add tesseract-ocr
 RUN pip install -r /app/menufoodhelper-master/requirements.txt
 RUN ls -la /app
 
-CMD ["/app/tg_bot_menu-master/main.py"]
+CMD ["/app/menufoodhelper-master/main.py"]
 ENTRYPOINT ["python"]
